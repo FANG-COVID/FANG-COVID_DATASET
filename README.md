@@ -9,3 +9,5 @@ Its three folders contain the following data:
 - training_data (whole_df): the FANG-COVID dataset as well as its corresponding CoCoGen features that served as input to our classifiers
 
 Each of these datasets are divided into smaller chunks and have to be concatenated after download due to GitHub's maximum file size 
+
+**Note: When inspecting the dataset's csv files (e.g. using Excel), specify no encoding in order to read the data properly**
